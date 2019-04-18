@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document created by Kierra Hicks , Spring 2019*/
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.4em;
+	color: #D7F2E7;
+	background-color: #1F4659;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.2em;
+	color: #D7F2E7;
+}
+h1 {
+	font-size: 30px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 25px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.7em;
+	background-color: #021A24;
+}
+h3 {
+	font-size: 20px;
+	letter-spacing: 0.4em;
+	border-bottom-width: 2px;
+	border-bottom-style: inset;
+	border-bottom-color: #336876;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: normal;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #1F4659;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #86B8C1;
+	text-decoration: none;
+}
+a:hover {
+	color: #D7F2E7;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 10px;
+}
+ol {
+	margin-left: 13px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #1F4659 1px;
+}
+td {
+	padding: 5px;
+	border: dotted #336876 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #999938;
+	text-align: center;
+	padding: 6px;
+	border: solid #336876 2px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #336876 2px;
+}
+
+img {
+	border: dotted #336876 2px;
+
+}
+
+iframe {
+	border: solid #336876 2px;
+	padding: 9px;
+	margin: 9px;
+}
